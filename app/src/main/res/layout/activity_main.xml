@@ -14,16 +14,10 @@
             android:layout_alignParentBottom="true" android:layout_marginBottom="23dp"
             android:visibility="visible" android:background="@android:color/holo_red_dark"
             android:layout_alignParentEnd="true" android:layout_marginEnd="32dp"/>
-    <android.support.design.widget.FloatingActionButton
-            android:layout_width="79dp"
-            android:layout_height="79dp"
-            android:clickable="true" app:srcCompat="@android:drawable/ic_input_add"
-            android:id="@+id/floatingActionButton3"
-            android:layout_marginStart="69dp" android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true" android:layout_marginBottom="127dp" android:visibility="visible"/>
     <CalendarView
-            android:layout_width="379dp"
-            android:layout_height="372dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentTop="true" android:id="@+id/calendarView"
-            android:layout_centerHorizontal="true" android:layout_marginTop="16dp"/>
+            android:layout_centerHorizontal="true" android:layout_marginTop="16dp" android:minDate="01/01/2019"
+            android:maxDate="12/31/2029"/>
 </RelativeLayout>
