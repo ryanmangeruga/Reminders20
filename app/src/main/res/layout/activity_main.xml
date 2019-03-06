@@ -6,13 +6,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
+    <application android:theme="@android:style/Material.Light.NoActionBar">
 
     <Button
             android:text="@string/add"
             android:layout_width="wrap_content"
-            android:layout_height="81dp" android:id="@+id/ButtonAdd"
+            android:layout_height="81dp" android:id="@+id/AddButton"
             android:layout_alignParentBottom="true" android:layout_marginBottom="23dp"
-            android:visibility="visible" android:background="@android:color/holo_red_dark"
+            android:visibility="visible" android:background="?android:attr/colorAccent"
             android:layout_alignParentEnd="true" android:layout_marginEnd="32dp"/>
     <CalendarView
             android:layout_width="wrap_content"
