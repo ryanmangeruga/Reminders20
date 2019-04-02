@@ -35,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void openActivity2(){
+    private void openActivity2(){
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
     }
 
-    public void openActivity3(){
+    private void openActivity3(){
         Intent intent = new Intent(this, MainActivity3.class);
         startActivity(intent);
     }
