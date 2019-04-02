@@ -1,4 +1,65 @@
 <resources>
-    <string name="app_name">Reminders 2.0</string>
-    <string name="add">Add</string>
+    <string name="app_name">2019 AP Exams</string>
+    <string name="week1Button">Week 1 Schedule</string>
+    <string name="week2Button">Week 2 Schedule</string>
+
+    // headers
+    <string name="strr1c1">Exam\nDate</string>
+    <string name="strr1c2">Morning\n(8:00 am)</string>
+    <string name="strr1c3">Afternoon\n(12:00 pm)</string>
+
+
+
+    // week 1 monday
+    <string name="strw1r2c1">Monday\n5/6</string>
+    <string name="strw1r2c2">* US Government and Politics</string>
+    <string name="strw1r2c3">* Chinese Language and Culture\n* Environmental Science</string>
+
+    // week 1 tuesday
+    <string name="strw1r3c1">Tuesday\n5/7</string>
+    <string name="strw1r3c2">* Seminar\n* Spanish Language and Culture</string>
+    <string name="strw1r3c3">* Japanese Language and Culture\n* Physics 1 (Algebra-Based)</string>
+
+    // week 1 wednesday
+    <string name="strw1r4c1">Wednesday\n5/8</string>
+    <string name="strw1r4c2">* English Literature and Composition</string>
+    <string name="strw1r4c3">* European History\n* French Language and Culture</string>
+
+    // week 1 thursday
+    <string name="strw1r5c1">Thursday\n5/9</string>
+    <string name="strw1r5c2">* Chemistry\n* Spanish Literature and Culture</string>
+    <string name="strw1r5c3">* German Language and Culture\n* Psychology</string>
+
+    // week 1 friday
+    <string name="strw1r6c1">Friday\n5/10</string>
+    <string name="strw1r6c2">* United States History\n* Studio Art</string>
+    <string name="strw1r6c3">* Computer Science Principles\n* Physics 2 (Algebra-Based)</string>
+
+
+
+    // week 2 monday
+    <string name="strw2r2c1">Monday\n5/13</string>
+    <string name="strw2r2c2">* Biology</string>
+    <string name="strw2r2c3">* Physics C (Mechanics + Electricity and Magnetism)</string>
+
+    // week 2 tuesday
+    <string name="strw2r3c1">Tuesday\n5/14</string>
+    <string name="strw2r3c2">* Calculus AB\n*Calculus BC</string>
+    <string name="strw2r3c3">* Art History\n* Human Geography</string>
+
+    // week 2 wednesday
+    <string name="strw2r4c1">Wednesday\n5/15</string>
+    <string name="strw2r4c2">* English Language and Composition</string>
+    <string name="strw2r4c3">* Italian Language and Culture\n* Macroeconomics</string>
+
+    // week 2 thursday
+    <string name="strw2r5c1">Thursday\n5/16</string>
+    <string name="strw2r5c2">* Comparative Government and Politics\n* World History</string>
+    <string name="strw2r5c3">* Statistics</string>
+
+    // week 2 friday
+    <string name="strw2r6c1">Friday\n5/17</string>
+    <string name="strw2r6c2">* Microeconomics\n* Music Theory</string>
+    <string name="strw2r6c3">* Computer Science A\n* Latin</string>
+
 </resources>

@@ -8,16 +8,25 @@
         tools:context=".MainActivity">
 
     <Button
-            android:text="@string/add"
-            android:layout_width="216dp"
-            android:layout_height="60dp" android:id="@+id/AddButton"
-            android:layout_alignParentBottom="true" android:layout_marginBottom="246dp"
+            android:text="@string/week1Button"
+            android:layout_width="256dp"
+            android:layout_height="64dp" android:id="@+id/week1Button"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="207dp"
             android:visibility="visible" android:background="?android:attr/colorAccent"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true" android:textColor="?android:attr/colorBackground"
+            android:textStyle="bold" android:backgroundTint="?android:attr/colorAccent"/>
     <CalendarView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true" android:id="@+id/calendarView"
-            android:layout_centerHorizontal="true" android:layout_marginTop="16dp" android:minDate="01/01/2019"
+            android:layout_centerHorizontal="true" android:layout_marginTop="43dp" android:minDate="01/01/2019"
             android:maxDate="12/31/2029"/>
+    <Button
+            android:text="@string/week2Button"
+            android:layout_width="256dp"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true" android:id="@+id/week2Button" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="111dp" android:textStyle="bold"
+            android:textAlignment="center" android:textColor="?android:attr/colorBackground"
+            android:backgroundTint="?android:attr/colorAccent" android:background="?android:attr/colorAccent"/>
 </RelativeLayout>
