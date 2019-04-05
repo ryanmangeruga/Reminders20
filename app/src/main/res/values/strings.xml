@@ -1,13 +1,18 @@
 <resources>
+
+    // home screen
     <string name="app_name">2019 AP Exams</string>
     <string name="week1Button">Week 1 Schedule</string>
     <string name="week2Button">Week 2 Schedule</string>
+    <string name="helpfulTipsButton">Expert Tips</string>
+    <string name="next">Next</string>
+    <string name="back">Home</string>
+
 
     // headers
     <string name="strr1c1">Exam\nDate</string>
     <string name="strr1c2">Morning\n(8:00 am)</string>
     <string name="strr1c3">Afternoon\n(12:00 pm)</string>
-
 
 
     // week 1 monday
@@ -36,7 +41,6 @@
     <string name="strw1r6c3">* Computer Science Principles\n* Physics 2 (Algebra-Based)</string>
 
 
-
     // week 2 monday
     <string name="strw2r2c1">Monday\n5/13</string>
     <string name="strw2r2c2">* Biology</string>
@@ -61,5 +65,10 @@
     <string name="strw2r6c1">Friday\n5/17</string>
     <string name="strw2r6c2">* Microeconomics\n* Music Theory</string>
     <string name="strw2r6c3">* Computer Science A\n* Latin</string>
+
+
+    // tips
+    <string name="tip1num">1</string>
+    <string name="tip1">Try to get 8 hours of sleep the night before your exam! Taking a test after a sleepless night of cramming won't get you the best score in the end.</string>
 
 </resources>

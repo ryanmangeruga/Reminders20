@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button week1Button;
     private Button week2Button;
+    private Button helpfulTipsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        helpfulTipsButton = (Button) findViewById(R.id.helpfulTipsButton);
+        helpfulTipsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity4();
+            }
+        });
 
     }
 
@@ -41,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openActivity3(){
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+
+    private void openActivity4(){
         Intent intent = new Intent(this, MainActivity3.class);
         startActivity(intent);
     }
