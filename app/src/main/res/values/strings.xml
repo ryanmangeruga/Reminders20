@@ -48,7 +48,7 @@
 
     // week 2 tuesday
     <string name="strw2r3c1">Tuesday\n5/14</string>
-    <string name="strw2r3c2">* Calculus AB\n*Calculus BC</string>
+    <string name="strw2r3c2">* Calculus AB\n* Calculus BC</string>
     <string name="strw2r3c3">* Art History\n* Human Geography</string>
 
     // week 2 wednesday
@@ -69,6 +69,25 @@
 
     // tips
     <string name="tip1num">1</string>
-    <string name="tip1">Try to get 8 hours of sleep the night before your exam! Taking a test after a sleepless night of cramming won't get you the best score in the end.</string>
+    <string name="tip1">Instead of cramming the night before an exam, do something to de-stress and make sure to get a
+        full night of sleep.
+    </string>
+    <string name="tip2num">2</string>
+    <string name="tip2">Make sure to arrive to your testing location on time with a positive attitude, extra writing
+        utensils, and any other necessary materials.
+    </string>
+    <string name="tip3num">3</string>
+    <string name="tip3">Go into each exam with a plan of what strategies you will use and how you will budget your time
+        among each section.
+    </string>
+    <string name="tip4num">4</string>
+    <string name="tip4">When in doubt, go with your gut, and make sure that all questions have an answer before handing
+        in the exam (even if this means putting C for every unanswered question in the last minute)
+    </string>
+    <string name="tip5num">5</string>
+    <string name="tip5">While taking the exam, remain calm and make an effort to ignore distractions. When on a time
+        constraint, every second counts!
+    </string>
+
 
 </resources>
